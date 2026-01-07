@@ -1,0 +1,206 @@
+:root {
+    --simpson-yellow: #FFD90F;
+    --simpson-blue: #87CEEB;
+    --simpson-dark-blue: #009DDC;
+    --simpson-text-shadow: 2px 2px 0px #000;
+    --simpson-white: #ffffff;
+    
+}
+
+body {
+    background-color: var(--simpson-blue); 
+    font-family: 'Gloria Hallelujah', cursive; 
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28Dos_E_Design%29.svg/1200px-Flag_of_the_United_States_%28Dos_E_Design%29.svg.png'); /* Opcional: nubes sutiles si encuentras una textura */
+    background-blend-mode: overlay;
+}
+
+
+.logo-main {
+    width: 100px; 
+    height: auto; 
+    display: block;
+}
+
+/* header design */
+.top-bar {
+    position: relative; 
+    width: 100%;
+    background-color: var(--simpson-yellow);
+    color: #005994; 
+    background-color: var(--);
+    padding: 7px; 
+    text-align: center; 
+    letter-spacing: 2px;
+    font-weight: 500;
+    z-index: 1001; /
+}
+
+.navigation-wrap {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--simpson-blue); 
+    color: var(--simpson-white);
+    z-index: 1000;
+    transition: all .15s ease-in-out 0s;
+    padding: 0.2rem 0;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+.navigation-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+    font-weight: 900;
+}
+.nav-link{
+    font-size: 0.95rem; 
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    padding: 0.3rem 0.6rem
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 000.625rem;
+}
+
+ /*change navbar styling on scroll*/
+ .navigation-wrap.scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--simpson-blue); 
+    color: var(--simpson-white);
+    transition: all .15s ease-in-out 0s;
+}
+
+/* banner design */
+.banner{
+    width: 100%;
+    min-height: 80vh;
+    background:url('./img/banner.png') no-repeat center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+/* Ajuste responsive para celulares */
+@media (max-width: 768px) {
+    .hero-banner {
+        height: 200px;
+    }
+}
+
+/* Títulos con estilo Simpsons */
+.section-title {
+    color: var(--simpson-yellow);
+    font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Borde negro */
+    letter-spacing: 2px;
+}
+
+/* Cards de Personajes */
+.character-card {
+    border: 3px solid #6CAAE0;
+    border-radius: 15px;
+    height: 300px;
+    background: white;
+    padding: 10px;
+}
+.card-img-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    background-image: radial-gradient(#ccc 1px, transparent 1px);
+    background-size: 10px 10px;
+    border-radius: 10px;
+}
+
+/* Botones de navegación (Flechas) */
+.btn-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--simpson-blue);
+    font-size: 2rem;
+    z-index: 10;
+}
+
+/* Botones de Temporadas */
+.btn-simpson {
+    background-color: var(--simpson-yellow);
+    border: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+.btn-simpson:hover, .btn-simpson.active {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Lista de Episodios */
+.episode-card {
+    border: 2px solid var(--simpson-dark-blue);
+    border-radius: 10px;
+}
+.episode-img-placeholder {
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+/* Profecías */
+.profecias-list h3 {
+    text-shadow: 1px 1px 0 #fff;
+}
+
+/* Footer Nube */
+.footer-cloud {
+    background-color: white;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* Simulando los iconos grises redondos */
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* episodios */
+
+/* Botones de temporada */
+#seasons-container button {
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: all 0.3s;
+}
+
+/* Efecto hover en la lista de episodios */
+.episode-card:hover {
+    background-color: #f8f9fa; /* Gris muy clarito */
+    transform: translateX(5px); /* Se mueve un poquito a la derecha */
+    transition: transform 0.2s ease;
+}
+
+/* Contenedor del video/imagen destacada */
+.video-container {
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
