@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Base URL para las imágenes (según documentación de simpsonsapi)
     const URL_IMG_BASE = 'https://cdn.thesimpsonsapi.com/500'; 
     
-    let allEpisodes = []; // Aquí guardaremos todos los episodios descargados
+    let allEpisodes = []; // Episodios descargados
     let seasonActive = 1; // Temporada activa por defecto
 
     // 1. FUNCIÓN PARA TRAER DATOS (FETCH ASYNC)

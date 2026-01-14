@@ -14,7 +14,6 @@ body {
     background-blend-mode: overlay;
 }
 
-
 .logo-main {
     width: 100px; 
     height: auto; 
@@ -32,7 +31,19 @@ body {
     text-align: center; 
     letter-spacing: 2px;
     font-weight: 500;
-    z-index: 1001; /
+    z-index: 1001; 
+}
+
+.top-bar {
+    position: relative; 
+    width: 100%;
+    background-color: var(--simpson-yellow);
+    color: #005994; 
+    padding: 7px; 
+    text-align: center; 
+    letter-spacing: 2px;
+    font-weight: 500;
+    z-index: 1001; 
 }
 
 .navigation-wrap {
@@ -71,7 +82,7 @@ body {
     margin-left: 000.625rem;
 }
 
- /*change navbar styling on scroll*/
+ /*navbar styling on scroll*/
  .navigation-wrap.scroll-on {
     position: fixed;
     top: 0;
@@ -91,7 +102,7 @@ body {
     padding: 2rem;
 }
 
-/* Ajuste responsive para celulares */
+/* responsive */
 @media (max-width: 768px) {
     .hero-banner {
         height: 200px;
@@ -102,7 +113,7 @@ body {
 .section-title {
     color: var(--simpson-yellow);
     font-size: 2.5rem;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Borde negro */
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
     letter-spacing: 2px;
 }
 
@@ -128,7 +139,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--simpson-blue);
+    color: var(--simpson-dark-blue);
     font-size: 2rem;
     z-index: 10;
 }
@@ -159,20 +170,6 @@ body {
     margin: 5px;
 }
 
-/* Profecías */
-.profecias-list h3 {
-    text-shadow: 1px 1px 0 #fff;
-}
-
-/* Footer Nube */
-.footer-cloud {
-    background-color: white;
-    border-top-left-radius: 50% 20%;
-    border-top-right-radius: 50% 20%;
-    position: relative;
-    margin-top: 50px;
-}
-
 /* Simulando los iconos grises redondos */
 .dot {
     height: 25px;
@@ -194,8 +191,8 @@ body {
 
 /* Efecto hover en la lista de episodios */
 .episode-card:hover {
-    background-color: #f8f9fa; /* Gris muy clarito */
-    transform: translateX(5px); /* Se mueve un poquito a la derecha */
+    background-color: #f8f9fa; 
+    transform: translateX(5px); 
     transition: transform 0.2s ease;
 }
 
@@ -203,4 +200,12 @@ body {
 .video-container {
     border: 1px solid #ddd;
     overflow: hidden;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 2px solid var(--simpson-white); 
+    width: 90%;      
+    margin: 10px auto; 
+    opacity: 0.7;   
 }
