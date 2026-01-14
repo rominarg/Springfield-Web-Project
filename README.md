@@ -34,7 +34,8 @@ Este proyecto fue desarrollado como práctica de Front-End para consolidar conoc
 ├── script.js       # Lógica de personajes, API y Modales
 ├── episodios.js    # Lógica para la sección de episodios
 └── img/            # Recursos gráficos
+```  
+###  [Ver Proyecto en Vivo (Live Demo)](https://rominarg.github.io/Springfield-Web-Project/)
+<img width="924" alt="simpson_web" src="https://github.com/user-attachments/assets/d0e47225-cd94-4c33-a185-3377bd05dd6b" />
 
-![Preview del Proyecto](img/preview.png)
 
-### 🔗 [Ver Proyecto en Vivo (Live Demo)](https://rominarg.github.io/Springfield-Web-Project/)
