@@ -35,7 +35,9 @@ Este proyecto fue desarrollado como práctica de Front-End para consolidar conoc
 ├── episodios.js    # Lógica para la sección de episodios
 └── img/            # Recursos gráficos
 ```  
-###  [Ver Proyecto en Vivo (Live Demo)](https://rominarg.github.io/Springfield-Web-Project/)
+### [![Ver Web en Vivo](https://img.shields.io/badge/🍩_VER_WEB_EN_VIVO-CLICK_AQUÍ-FFD90F?style=for-the-badge&labelColor=black)](https://rominarg.github.io/Springfield-Web-Project/)
+
+### Vista Previa
 <img width="924" alt="simpson_web" src="https://github.com/user-attachments/assets/d0e47225-cd94-4c33-a185-3377bd05dd6b" />
 
 
