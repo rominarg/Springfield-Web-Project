@@ -2,8 +2,6 @@
 
 Una Landing Page interactiva y responsiva dedicada al universo de Los Simpsons. Este proyecto consume una API externa para mostrar información dinámica sobre los personajes y ofrece una interfaz de usuario temática y amigable.
 
-![Preview del Proyecto](img/preview.png)
-
 ##  Descripción
 
 Este proyecto fue desarrollado como práctica de Front-End para consolidar conocimientos en manipulación del DOM, consumo de APIs (Fetch) y diseño responsivo utilizando Bootstrap 5. La aplicación permite a los usuarios navegar por una galería de personajes, ver detalles específicos en ventanas modales y explorar información sobre las temporadas.
@@ -36,3 +34,7 @@ Este proyecto fue desarrollado como práctica de Front-End para consolidar conoc
 ├── script.js       # Lógica de personajes, API y Modales
 ├── episodios.js    # Lógica para la sección de episodios
 └── img/            # Recursos gráficos
+
+![Preview del Proyecto](img/preview.png)
+
+### 🔗 [Ver Proyecto en Vivo (Live Demo)](https://rominarg.github.io/Springfield-Web-Project/)
